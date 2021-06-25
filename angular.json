@@ -31,8 +31,14 @@
                 "output": "./svg"
               }
             ],
-            "styles": ["src/theme/variables.scss", "src/global.scss"],
-            "scripts": [],
+            "styles": [
+              "src/theme/variables.scss",
+              "src/global.scss",
+              "node_modules/grapesjs/dist/css/grapes.min.css"
+            ],
+            "scripts": [
+              "node_modules/grapesjs/dist/grapes.min.js"
+            ],
             "aot": false,
             "vendorChunk": true,
             "extractLicenses": false,
